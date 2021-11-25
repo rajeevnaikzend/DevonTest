@@ -1,0 +1,19 @@
+team_list:
+  path: /api/v1/teams
+  controller: App\Controller\TeamController::indexAction
+  methods: [GET]
+  
+team_create:
+  path: /api/v1/teams
+  controller: App\Controller\TeamController::createAction
+  methods: [POST]
+  
+player_list:
+  path: /api/v1/players
+  controller: App\Controller\PlayerController::indexAction
+  methods: [GET]
+  
+player_create:
+  path: /api/v1/players
+  controller: App\Controller\PlayerController::createAction
+  methods: [POST]
